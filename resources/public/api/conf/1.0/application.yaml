@@ -426,7 +426,7 @@ components:
           allOf:
             - $ref: '#/components/schemas/errorResponse'
 paths:
-  /customs/imports/outcomes/:
+  /customs/imports/outcomes:
     get:
       tags:
       - customs
